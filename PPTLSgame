@@ -6,7 +6,7 @@ import subprocess
 while True:
     print("JUGANDO A PIEDRA, PAPEL O TIJERAS, LAGARTO, SPOCK")
     Comp=random.choice(["Piedra","Papel","Tijeras","Lagarto","Spock"])#Comp=(ppt(n)).lower()
-    Tu=input("Piedra, Papel, Tijera, Lagarto, Spock: ")
+    Tu=input("Piedra, Papel, Tijeras, Lagarto, Spock: ")
     Tu=Tu.lower()
     while Tu!=("piedra") and Tu!=("papel") and Tu!=("tijeras") and Tu!=("lagarto") and Tu!=("spock"):
         Tu=input("Escribe\'piedra\',\'papel\',\'tijeras\',\'lagarto\' o \'Spock\' según su opción: ")
